@@ -1,7 +1,16 @@
 <html>
+    <head>
+        <link rel="stylesheet" href="./index.css"></link>
+    </head>
     <body>
-        <div id="map" style="height:100%;"></div>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNLrJhOMz6idD05pzfn5lhA-TAw-mAZCU&callback=Function.prototype"></script>
-      <script type="module" src="./src/index.ts"></script>
+        <h1 style="font-weight: bold;">Find my Company</h1>
+        <div id="map" style="height:55%;"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNLrJhOMz6idD05pzfn5lhA-TAw-mAZCU&callback=Function.prototype"></script>
+        <script type="module" src="./src/index.ts"></script>
+        <div class="grid">
+            <div id="userDesc" class="div1"> </div>
+            <div class="div2"><h2>purchased from</h2></div>
+            <div id="compDesc" class="div3"> </div>
+        </div> 
     </body>
   </html>
